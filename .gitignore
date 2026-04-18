@@ -41,5 +41,19 @@ nb-configuration.xml
 
 # Plugin directory
 /.quarkus/cli/plugins/
+
+# Quarkus build/dev artifacts
+/.quarkus/
+quarkus.log
+
+# Generic local artifacts
+*.log
+*.tmp
+*.bak
+*~
+
+# Local environment variants
+.env.*
+
 # TLS Certificates
 .certs/
